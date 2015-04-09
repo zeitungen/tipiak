@@ -1,0 +1,41 @@
+{
+  "name": "tipiak",
+  "version": "0.0.1",
+  "description": "Fixture/Mocking loader for waterline orm",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node debug index.js",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://zeitungen@github.com/zeitungen/tipiak.git"
+  },
+  "keywords": [
+    "unit",
+    "test",
+    "mocking",
+    "fixture",
+    "waterline"
+  ],
+  "author": "Maxime Journaux",
+  "license": "Apache License v2",
+  "bugs": {
+    "url": "https://github.com/zeitungen/tipiak/issues"
+  },
+  "homepage": "https://github.com/zeitungen/tipiak",
+  "dependencies": {
+    "lodash": "^3.6.0",
+    "sails-build-dictionary": "^0.10.1",
+    "sails-memory": "^0.10.3",
+    "waterline": "^0.10.19"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "should": "^5.2.0"
+  }
+}
