@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/zeitungen/tipiak",
   "dependencies": {
+    "async": "^0.9.0",
     "lodash": "^3.6.0",
     "sails-build-dictionary": "^0.10.1",
     "sails-memory": "^0.10.3",
